@@ -816,6 +816,7 @@
 	a[href*="civtest"].title:before {
 		content: "";
 	}
+	
 	/* Greentext like on chans - Bob */
 	a[href$="#greentext"], a[href$="#g"] {
 		border: 0;
@@ -823,6 +824,7 @@
 		color: #789922;
 		display: block;
 	}
+	
 	/* Sticky Posts - Bob */
 	/* No Score on sticky posts shown - Bob */
 	.stickied .score {

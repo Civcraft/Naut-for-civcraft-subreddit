@@ -3722,6 +3722,7 @@
     width:         407px; /* Width of image */
     height:        140px;  /* Half the height of your image */
     }
+	
     /* End Addon */
 	
 	/* --- Make sponsorship box --- */
@@ -3735,6 +3736,7 @@
         position: relative;
         bottom: 60px;
     }
+	
     /* --- End Addon --- */
     
     /* -- Civcraft CSS from ye olden days (probably like between 1.0 and 2.0 or something idk) -- */
