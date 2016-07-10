@@ -341,6 +341,30 @@
     
     /* --- End Addon --- */
     
+    /* --- Fix the promoted link --- */
+    
+    .link.promotedlink.promoted .thumbnail img {
+        transform: translateY(0%);
+    }
+    
+    .link.promotedlink.promoted {
+        padding: 16px 0px !important;
+        border-bottom: 1px solid #D9D9D9;
+        border-top: 0px none;
+        border-right: 0px none;
+        border-left: 0px none;
+    }
+    
+    /* --- End Addon --- */
+    
+    /* --- Fix infobar welcome message --- */
+    
+    .content .infobar.welcome {
+        margin-right: 35px;
+    }
+    
+    /* --- End Addon --- */
+    
     /* --- REMOVE THE FAQ --- */
     
 	#images:before {
