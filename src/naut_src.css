@@ -3617,6 +3617,15 @@
     
     /* --- End Addon --- */
     
+    /* --- Fix Login Form in sidebar --- */
+    
+    .login-form-side {
+        position: relative;
+        top: -60px;
+    }
+    
+    /* --- End Addon --- */
+    
     /* --- Addon: Colorize the Subreddit Info Box --- */
     
     .side .titlebox h1.redditname:before {
