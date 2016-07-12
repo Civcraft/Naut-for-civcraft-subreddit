@@ -832,7 +832,10 @@
 	/* OCD STUFF */
 	div.leavemoderator:first-letter {
 		text-transform: capitalize
-    }
+    	}
+    	.submit-page .roundfield .title {
+    		text-transform: none;
+    	}
 	/* Autowikibot hover to display by /u/Dropping_fruits */
 	/* Code updates and discussion: http://redd.it/1vr0r2 */
 	.comment .md h5+h6+h4+p,.comment .md h5+h6+h4+p+hr,.comment .md h5+h6+h4+p+hr+blockquote,.comment .md h5+h6+h4+p+hr+blockquote+hr,.comment .md h5+h6+h4+p+hr+blockquote+hr+p,.comment .md h5+h6+h4+p+hr+blockquote+hr+p+p {
