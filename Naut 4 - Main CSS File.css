@@ -478,6 +478,22 @@
     
     /* --- End Addon --- */
     
+    /* --- Improve the flair box --- */
+    
+    .flairselector {
+    	width: inherit!important;
+    	left: 50%!important;
+    	margin-left: 0px!importnant;
+    	margin-right: 50%;
+    	transform: translate(-50%, 0%);
+    }
+    
+    .flairoptionpane {
+    	max-height: 1000px!important;
+    }
+    
+    /* --- End Addon --- */
+    
     /* --- Addon: Colorize the Subreddit Info Box --- */
     
     .side .titlebox h1.redditname:before {
