@@ -296,6 +296,70 @@
     
     /* --- End Addon --- */
     
+	/* --- Fixing the search page --- */
+    
+    body:not(.submit-page).search-page #header .pagename a {
+        margin-top: 280px;
+    }
+    .search-page #header {
+        height: 230px;
+    }
+    .search-page #search input[type=text] {
+        margin-top:109px;
+        margin-left: 30px;
+        width: 790px;
+    }
+    .search-page #search input[type=submit] {
+        margin-top:109px;
+    }
+    .search-page .menuarea {
+        padding: 16px;
+        margin-top:77px;
+        background-color: #fff;
+        margin-left: -1px;
+        margin-right: 1px;
+        border-radius: 2px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    }
+    .searchpane-toggle-hide {
+        display: none;
+    }
+    .raisedbox {
+        border: none!important;
+    }
+    .search-page #previoussearch p a#search_showmore {
+        top: 118px;
+        left: 825px;
+    }
+    .search-page #previoussearch label {
+        width: 247%;
+        margin-left:30px;
+    }
+    body:not(.submit-page).search-page #header-img {
+        margin-top: 195px;
+    }
+    .search-page .link {
+        background-color: #fff;
+        padding: 16px;
+        border-radius: 2px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    }
+    body:not(.submit-page).search-page #header-bottom-left {
+        height:10px;
+    }
+    
+    /* --- End Addon --- */
+	
+	/* --- Fix the link info box --- */
+    
+    .comments-page .side .linkinfo {
+        position: inherit;
+        margin-bottom: 80px;
+        margin-top: -140px;
+    }
+    
+    /* --- End Addon --- */
+	
     /* --- SIDEBAR (remove sidebar image) --- */
     
     .side:before { display: none }
