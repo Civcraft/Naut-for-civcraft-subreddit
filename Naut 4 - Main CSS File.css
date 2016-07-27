@@ -15,8 +15,8 @@
 											/////
 
 	==================================================================================================================================*/
-	
-	  	/* --- Reddit Enhancement Suite Fixes --- */
+
+    	/* --- Reddit Enhancement Suite Fixes --- */
 
 		/* Nightmode */
 	
@@ -296,8 +296,14 @@
     
     /* --- End Addon --- */
     
-	/* --- Fixing the search page --- */
+    /* --- Fixing the search page --- */
     
+    .search-page .searchfacets {
+        margin-top: 80px;
+        margin-bottom: -60px;
+        border-radius: 2px!important;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    }
     body:not(.submit-page).search-page #header .pagename a {
         margin-top: 280px;
     }
@@ -348,9 +354,29 @@
         height:10px;
     }
     
+    .combined-search-page .search-result-group {
+        background-color: #fff;
+        padding: 16px;
+    }
+    .combined-search-page>.content {
+        margin-top: 102px;
+    }
+    .combined-search-page #search input[type=text] {
+        margin-top: 21px !important;
+    }
+    .combined-search-page .search-submit-button {
+        margin-top: 20px !important;
+    }
+    .combined-search-page #previoussearch p a#search_showmore {
+        margin-top: -85px !important;
+        margin-left: -30px !important;
+    }
+    .combined-search-page #previoussearch label {
+        width: 234.5% !important;
+    }
     /* --- End Addon --- */
-	
-	/* --- Fix the link info box --- */
+    
+    /* --- Fix the link info box --- */
     
     .comments-page .side .linkinfo {
         position: inherit;
@@ -359,7 +385,7 @@
     }
     
     /* --- End Addon --- */
-	
+    
     /* --- SIDEBAR (remove sidebar image) --- */
     
     .side:before { display: none }
@@ -401,6 +427,16 @@
     }
     .sidebox.submit.submit-link .morelink a:after {
         content: "Submit";
+    }
+    
+    /* --- End Addon --- */
+    
+    /* --- Fix rules page --- */
+    
+    .subreddit-rules-page {
+        background: #fff;
+        border-radius: 2px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
     }
     
     /* --- End Addon --- */
@@ -459,6 +495,16 @@
     }
     
     /* --- End Addon --- */
+
+    /* --- Addon: Replacing dots (•) with a space  --- */
+   .comment .score:before
+    {
+        content: " ";
+        line-height: 14px;
+        margin: 0 2px;
+        vertical-align: middle;
+    }
+    /* --- End Addon --- *
     
     /* --- Civcraft wordmark logo header --- */
     
@@ -533,7 +579,7 @@
     
     /* --- End Addon --- */
     
-   /* --- Fix Login Form in sidebar --- */
+    /* --- Fix Login Form in sidebar --- */
     
     .login-form-side {
         position: relative;
@@ -545,15 +591,15 @@
     /* --- Improve the flair box --- */
     
     .flairselector {
-    	width: inherit!important;
-    	left: 50%!important;
-    	margin-left: 0px!importnant;
-    	margin-right: 50%;
-    	transform: translate(-50%, 0%);
+        width: inherit!important;
+        left: 50%!important;
+        margin-left: 0px!important;
+        margin-right:-50%;
+        transform: translate(-50%, 0%);
     }
     
     .flairoptionpane {
-    	max-height: 1000px!important;
+        max-height: 1000px!important;
     }
     
     /* --- End Addon --- */
@@ -664,8 +710,8 @@
     height:        140px;  /* Half the height of your image */
     }
     /* End Addon */
-	
-	/* --- Make sponsorship box --- */
+    
+    /* --- Make sponsorship box --- */
     .sponsorshipbox {
         background-color: #fff;
         padding: 16px;
@@ -896,11 +942,11 @@
 	/* OCD STUFF */
 	div.leavemoderator:first-letter {
 		text-transform: capitalize
-    	}
-    	.submit-page .roundfield .title {
-    		text-transform: none;
-    	}
-	/* Autowikibot hover to display by /u/Dropping_fruits */
+    }
+    .submit-page .roundfield .title {
+        text-transform: none;
+    }
+    /* Autowikibot hover to display by /u/Dropping_fruits */
 	/* Code updates and discussion: http://redd.it/1vr0r2 */
 	.comment .md h5+h6+h4+p,.comment .md h5+h6+h4+p+hr,.comment .md h5+h6+h4+p+hr+blockquote,.comment .md h5+h6+h4+p+hr+blockquote+hr,.comment .md h5+h6+h4+p+hr+blockquote+hr+p,.comment .md h5+h6+h4+p+hr+blockquote+hr+p+p {
 		display: none;
@@ -932,7 +978,6 @@
 	a[href*="civtest"].title:before {
 		content: "";
 	}
-	
 	/* Greentext like on chans - Bob */
 	a[href$="#greentext"], a[href$="#g"] {
 		border: 0;
@@ -940,7 +985,6 @@
 		color: #789922;
 		display: block;
 	}
-	
 	/* Sticky Posts - Bob */
 	/* No Score on sticky posts shown - Bob */
 	.stickied .score {
